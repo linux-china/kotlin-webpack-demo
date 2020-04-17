@@ -21,6 +21,8 @@ $ dukat -p axios -m axios  index.d.ts
 * Add kotlinx-coroutines-core as dependency in package.json
 * Enable librariesAutoLookup for KotlinWebpackPlugin in webpack.config.js
 
+![Classpath](intellij-classpath.png)
+
 # Features
 
 Mix Javascript, TypeScript and Kotlin together by using Webpack.
