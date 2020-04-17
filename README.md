@@ -7,6 +7,10 @@ Use webpack to compile Kotlin files
 
 Please use IntelliJ IDEA to open the project.
 
+# Features
+
+Mix Javascript, TypeScript and Kotlin together by using Webpack.
+
 # References
 
 * Kotlin/JS: https://kotlinlang.org/docs/reference/js-project-setup.html
