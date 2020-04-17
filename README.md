@@ -15,6 +15,12 @@ Converter of TypeScript definition files to Kotlin declarations
 $ dukat -p axios -m axios  index.d.ts
 ```
 
+# Kotlin Coroutines support
+
+* Add lib/kotlinx-coroutines-core-js-1.3.5.jar as module dependency in IDEA to enable code completion.
+* Add kotlinx-coroutines-core as dependency in package.json
+* Enable librariesAutoLookup for KotlinWebpackPlugin in webpack.config.js
+
 # Features
 
 Mix Javascript, TypeScript and Kotlin together by using Webpack.
