@@ -7,6 +7,14 @@ Use webpack to compile Kotlin files
 
 Please use IntelliJ IDEA to open the project.
 
+# dukat
+
+Converter of TypeScript definition files to Kotlin declarations
+
+```
+$ dukat -p axios -m axios  index.d.ts
+```
+
 # Features
 
 Mix Javascript, TypeScript and Kotlin together by using Webpack.
