@@ -1,10 +1,18 @@
+import axios.Axios
+import axios.AxiosRequestConfig
+import axios.AxiosRequestConfigImpl
+import axios.AxiosResponse
+import kotlinx.coroutines.coroutineScope
 import lodash.toUpper
-import kotlin.browser.document
-import kotlin.dom.appendText
 
-@ExperimentalJsExport
-fun main() {
-    document.getElementById("hello")!!.appendText("Hello World")
+suspend fun main() = coroutineScope {
+    //document.getElementById("hello")!!.appendText("Hello World")
+    val config: AxiosRequestConfig = AxiosRequestConfigImpl("get", "text")
+    config.url = "http://httpbin.org/ip"
+    Axios.request<String, AxiosResponse<String>>(config).then {
+        console.log(it.data)
+    }
+    Unit
 }
 
 @ExperimentalJsExport
