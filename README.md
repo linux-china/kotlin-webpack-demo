@@ -3,6 +3,10 @@ Kotlin/JS Webpack Demo
 
 Use webpack to compile Kotlin files
 
+# Setup
+
+Please use IntelliJ IDEA to open the project.
+
 # References
 
 * Kotlin/JS: https://kotlinlang.org/docs/reference/js-project-setup.html
