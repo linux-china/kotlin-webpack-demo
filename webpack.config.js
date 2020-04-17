@@ -6,7 +6,7 @@ const path = require('path');
 module.exports = {
     entry: './index.js', // kotlinApp is the default module name
     //node or browser
-    target: "browser",
+    target: "node",
     output: {
         filename: '[name]-bundle.js',
         path: path.resolve(__dirname, 'dist')
@@ -31,7 +31,8 @@ module.exports = {
     plugins: [
         new KotlinWebpackPlugin({
             src: __dirname + '/src',
-            moduleName: "ktLib"
+            moduleName: "ktLib",
+            librariesAutoLookup: true
         }),
         new HtmlWebpackPlugin({
             template: path.join(__dirname, 'index.html'),
