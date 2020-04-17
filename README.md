@@ -31,3 +31,4 @@ Mix Javascript, TypeScript and Kotlin together by using Webpack.
 
 * Kotlin/JS: https://kotlinlang.org/docs/reference/js-project-setup.html
 * kotlin-webpack-plugin: Compile Kotlin files to JavaScript using webpack https://github.com/JetBrains/create-react-kotlin-app/tree/master/packages/kotlin-webpack-plugin
+* Top 1000 most depended-upon packages: https://gist.github.com/anvaka/8e8fa57c7ee1350e3491
