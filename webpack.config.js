@@ -26,6 +26,11 @@ module.exports = {
                 use: ['source-map-loader'],
                 enforce: 'pre',
             },
+            {
+                test: /\.(js|jsx)$/,
+                exclude: /node_modules/,
+                use: ['babel-loader']
+            }
         ],
     },
     plugins: [
