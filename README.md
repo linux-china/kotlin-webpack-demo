@@ -12,7 +12,7 @@ Please use IntelliJ IDEA to open the project.
 Converter of TypeScript definition files to Kotlin declarations
 
 ```
-$ dukat -p axios -m axios  index.d.ts
+$ ./node_modules/.bin/dukat -p axios -m axios  index.d.ts
 ```
 
 # Kotlin Coroutines support
