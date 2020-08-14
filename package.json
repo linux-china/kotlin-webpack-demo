@@ -12,24 +12,24 @@
   "author": "linux_china",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
     "@jetbrains/kotlin-webpack-plugin": "^3.0.2",
+    "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
-    "css-loader": "^3.5.2",
+    "css-loader": "^4.2.1",
     "file-loader": "^6.0.0",
-    "html-webpack-plugin": "^4.2.0",
-    "style-loader": "^1.1.4",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3",
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
-    "babel-loader": "^8.1.0"
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "kotlin": "^1.3.72",
-    "kotlinx-coroutines-core": "^1.3.5",
     "axios": "^0.19.2",
-    "lodash": "^4.17.15",
-    "lit-html": "^1.2.1"
+    "kotlin": "^1.4.0",
+    "kotlinx-coroutines-core": "^1.3.9",
+    "lit-html": "^1.2.1",
+    "lodash": "^4.17.20"
   }
 }
